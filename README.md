@@ -8,10 +8,10 @@ This project focuses on analyzing Airbnb listings in New York City to explore pr
 ## Project Objective
 
 To perform exploratory data analysis on New York Airbnb listings in order to:
-- Understand key drivers of listing prices
-- Visualize geographic and categorical trends
-- Prepare the dataset for price prediction
-- Engineer new features for improved insights
+- Understand key drivers of listing prices.
+- Visualize geographic and categorical trends.
+- Prepare the dataset for price prediction.
+- Engineer new features for improved insights.
 
 ---
 
@@ -44,8 +44,8 @@ To perform exploratory data analysis on New York Airbnb listings in order to:
 ## Exploratory Data Analysis
 
 ### Univariate Analysis
-- **Price Distribution**: Majority of listings under \$1500; outliers heavily skew data
-- **Availability**: Listings range from seasonal to year-round
+- **Price Distribution**: Majority of listings under \$1500; outliers heavily skew data.
+- **Availability**: Listings range from seasonal to year-round.
 
 ### Feature Engineering
 - Created new feature: `price per bed`
@@ -57,19 +57,19 @@ To perform exploratory data analysis on New York Airbnb listings in order to:
   - Bronx: \$107.99
 
 ### Bivariate & Multivariate Analysis
-- **Price by Neighborhood & Room Type**: Manhattan shows highest prices across all room types
-- **Price vs Number of Reviews**: No strong linear trend
-- **Geographical Visualization**: Clusters of listings around central NYC
-- **Correlation Heatmap**: Weak to moderate correlation among numerical features
+- **Price by Neighborhood & Room Type**: Manhattan shows highest prices across all room types.
+- **Price vs Number of Reviews**: No strong linear trend.
+- **Geographical Visualization**: Clusters of listings around central NYC.
+- **Correlation Heatmap**: Weak to moderate correlation among numerical features.
 
 ---
 
 ## Key Insights
 
-- **Manhattan is the most expensive borough**, largely due to location and demand
-- **Room type significantly influences price**, with entire homes costing the most
-- **Price per bed** is a useful normalization for comparing listings
-- **Visual trends** highlight geographic and categorical impacts on price
+- **Manhattan is the most expensive borough**, largely due to location and demand.
+- **Room type significantly influences price**, with entire homes costing the most.
+- **Price per bed** is a useful normalization for comparing listings.
+- **Visual trends** highlight geographic and categorical impacts on price.
 
 ---
 
@@ -85,9 +85,9 @@ To perform exploratory data analysis on New York Airbnb listings in order to:
 ---
 
 ## Limitations & Future Work
-- Outliers should be treated more rigorously in future modeling
-- Missing data was dropped, which may reduce dataset representativeness
-- **Future Work**: Build a predictive model using regression or machine learning techniques
+- Outliers should be treated more rigorously in future modeling.
+- Missing data was dropped, which may reduce dataset representativeness.
+- **Future Work**: Build a predictive model using regression or machine learning techniques.
 
 ---
 
@@ -99,7 +99,7 @@ This project offers valuable insights into the New York Airbnb market, helping b
 ## How to Run This Project
 1. Clone the repository:
    ```bash
-   
+   git clone https://github.com/JISHNUPALIT/NYC_Airbnb_Price-Prediction-EDA-Project-Using-Python-.git
    ```
 2. Install the required libraries:
    ```bash
