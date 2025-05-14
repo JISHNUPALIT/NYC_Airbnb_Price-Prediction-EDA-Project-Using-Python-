@@ -96,3 +96,21 @@ This project offers valuable insights into the New York Airbnb market, helping b
 
 ---
 
+## How to Run This Project
+1. Clone the repository:
+   ```bash
+   
+   ```
+2. Install the required libraries:
+   ```bash
+   pip install pandas numpy matplotlib seaborn
+   ```
+3. Open and run the Jupyter Notebook:
+   ```bash
+   jupyter notebook Airbnb price prediction data analytics.ipynb
+   ```
+
+---
+
+
+
