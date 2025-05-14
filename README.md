@@ -5,7 +5,7 @@ This project focuses on analyzing Airbnb listings in New York City to explore pr
 ![image alt](https://github.com/JISHNUPALIT/NYC_Airbnb_Price-Prediction-EDA-Project-Using-Python-/blob/2447b482522ff6803893f6dca0610cbc8a8cebbf/airbnb_NYC_image.jpg)
 
 
-## 📌 Project Objective
+## Project Objective
 
 To perform exploratory data analysis on New York Airbnb listings in order to:
 - Understand key drivers of listing prices
@@ -15,7 +15,7 @@ To perform exploratory data analysis on New York Airbnb listings in order to:
 
 ---
 
-## 🧰 Tools & Technologies
+## Tools & Technologies
 
 - **Python 3**
 - **Pandas**, **NumPy** – Data manipulation
@@ -24,7 +24,7 @@ To perform exploratory data analysis on New York Airbnb listings in order to:
 
 ---
 
-## 📂 Dataset Overview
+## Dataset Overview
 
 - **File**: `NewYork_airbnb_listings.csv`
 - **Rows**: 20,770
@@ -33,7 +33,7 @@ To perform exploratory data analysis on New York Airbnb listings in order to:
 
 ---
 
-## 🧹 Data Cleaning
+## Data Cleaning
 
 - Removed rows with missing values (`dropna`)
 - Removed duplicate entries (`drop_duplicates`)
@@ -41,13 +41,13 @@ To perform exploratory data analysis on New York Airbnb listings in order to:
 
 ---
 
-## 📊 Exploratory Data Analysis
+## Exploratory Data Analysis
 
-### 🔍 Univariate Analysis
+### Univariate Analysis
 - **Price Distribution**: Majority of listings under \$1500; outliers heavily skew data
 - **Availability**: Listings range from seasonal to year-round
 
-### 🧠 Feature Engineering
+### Feature Engineering
 - Created new feature: `price per bed`
 - Calculated average price per neighborhood group:
   - Manhattan: \$204.15
@@ -56,7 +56,7 @@ To perform exploratory data analysis on New York Airbnb listings in order to:
   - Staten Island: \$118.78
   - Bronx: \$107.99
 
-### 📈 Bivariate & Multivariate Analysis
+### Bivariate & Multivariate Analysis
 - **Price by Neighborhood & Room Type**: Manhattan shows highest prices across all room types
 - **Price vs Number of Reviews**: No strong linear trend
 - **Geographical Visualization**: Clusters of listings around central NYC
@@ -64,12 +64,35 @@ To perform exploratory data analysis on New York Airbnb listings in order to:
 
 ---
 
-## 📍 Key Insights
+## Key Insights
 
 - **Manhattan is the most expensive borough**, largely due to location and demand
 - **Room type significantly influences price**, with entire homes costing the most
 - **Price per bed** is a useful normalization for comparing listings
 - **Visual trends** highlight geographic and categorical impacts on price
+
+---
+
+## Recommendations
+- **For Guests**: 
+   - Look for listings with high availability and good reviews for a better experience.
+   - **Private rooms** in Brooklyn offer affordable stays compared to Manhattan.
+
+- **For Hosts**:  
+   - Improve **availability** and **review response rates** to attract more bookings.
+   - Manage pricing effectively to compete within the borough's market.
+
+---
+
+## Limitations & Future Work
+- Outliers should be treated more rigorously in future modeling
+- Missing data was dropped, which may reduce dataset representativeness
+- **Future Work**: Build a predictive model using regression or machine learning techniques
+
+---
+
+## Conclusion
+This project offers valuable insights into the New York Airbnb market, helping both guests and hosts make informed decisions. By using **EDA techniques**, we identified key trends and developed actionable recommendations. Future improvements can involve advanced analytics and predictive modeling to further enhance the findings.
 
 ---
 
